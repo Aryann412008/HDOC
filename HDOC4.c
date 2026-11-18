@@ -1,0 +1,35 @@
+//1
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("After swap: %d %d", a, b);
+
+    return 0;
+}
+
+//2
+#include <stdio.h>
+
+int main()
+{
+    int n, sum;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    sum = n * (n + 1) / 2;
+
+    printf("Sum=%d", sum);
+
+    return 0;
+}
